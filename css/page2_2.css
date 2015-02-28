@@ -1,0 +1,798 @@
+.assemble {
+    width: 100%;
+}
+
+.assemble .detail01 .titlebox {
+    width: 110px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.assemble .detail01 {
+    background-color: #5bc1b7;
+    padding: 100px 0;
+    padding-top: 70px;
+}
+
+.assemble .detail01 .title_text {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.assemble .detail01 p {
+    margin-top: -5px;
+}
+
+.assemble .detail01 .body_text {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 100px;
+    line-height: 35px;
+    margin-top: -70px;
+    margin-left: 300px;
+}
+
+.assemble .detail01 .body_text02 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 100px;
+    line-height: 35px;
+    margin-left: 300px;
+}
+
+
+.assemble .detail02 .titlebox2 {
+    width: 115px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.assemble .detail02 {
+    background-color: #5bc1b7;
+    padding: 70px 0;
+    padding-top: 80px;
+}
+
+.assemble .detail02 .title_text2 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.assemble .detail02 p {
+    margin-top: -5px;
+}
+
+.assemble .detail02 .body_text2 {
+    margin-left: 300px;
+    margin-top: -30px;
+}
+
+.assemble .detail02 .body_text2 .body_text2_1 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 0 100px;
+    line-height: 35px;
+}
+
+.assemble .detail02 .body_text2 .body_text2_2 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 100px;
+    line-height: 35px;
+}
+
+.assemble .detail02 .body_text2 .body_text2_3 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 100px;
+    line-height: 35px;
+}
+
+/*세번째*/
+
+.assemble .detail03 {
+    background-color: #5bc1b7;
+    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.assemble .detail03 .titlebox3 {
+    width: 160px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.assemble .detail03 {
+    background-color: #5bc1b7;
+    padding: 50px 0;
+    padding-top: 70px;
+}
+
+.assemble .detail03 .title_text3 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.assemble .detail03 p {
+    margin-top: -5px;
+}
+
+.assemble .detail03 .body_text3 {
+    margin-left: 300px;
+    margin-top: -30px;
+}
+
+.assemble .detail03 .body_text3 .body_text3_1 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 0 100px;
+    line-height: 35px;
+}
+
+.assemble .detail03 .body_text3 .body_text3_2 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 0 100px;
+    line-height: 35px;
+}
+
+/*핸드폰*/
+.assemble .phone {
+    background-color: #5bc1b7;
+    padding: 200px 0;
+    padding-top: 50px;
+}
+
+.assemble .phone .phone1 {
+    text-align: center;
+    z-index: 1;
+}
+
+.assemble .phone .phone1 .phone_img {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 90px;
+}
+
+.assemble .phone .phone1 .phone_img .phone01 {
+    width: 400px;
+    height: 689px;
+    background-image: url("image/phone1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.assemble .phone .phone_text {
+    float: right;
+    margin-top: -530px;
+    margin-right: 250px;
+    z-index: 2;
+}
+
+.assemble .phone .phone_text .text01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 27px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.assemble .phone .phone_text .text01 span {
+    opacity: 0.4;
+}
+
+.assemble .phone .phone_text .sub_title01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 50px;
+}
+
+.assemble .phone .phone_text .sub_title01 .contents01 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+
+.assemble .phone .phone_text .sub_title02 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+
+.assemble .phone .phone_text .sub_title02 .contents02 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.assemble .phone .phone_text .sub_title03 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+/*Button Description*/
+.assemble .phone .phone_text .sub_title03 .contents03 {
+    margin-top: 15px;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text1 {
+    display: flex;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text1 .circle1 {
+    width: 25px;
+    height: 25px;
+    background-color: #f95555;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text1 span {
+    color: #fffff;
+    font-family: 'nanum gothic', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text1 .circle1 span {
+    color: #fffff;
+    font-family: 'open sans', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents02 .detail_text2 {
+    display: flex;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text2 .circle2 {
+    width: 25px;
+    height: 25px;
+    background-color: #f95555;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text2 span {
+    color: #fffff;
+    font-family: 'nanum gothic', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text2 .circle2 span {
+    color: #fffff;
+    font-family: 'open sans', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents02 .detail_text3 {
+    display: flex;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text3 .circle3 {
+    width: 25px;
+    height: 25px;
+    background-color: #f95555;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text3 span {
+    color: #fffff;
+    font-family: 'nanum gothic', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+.assemble .phone .phone_text .sub_title03 .contents03 .detail_text3 .circle3 span {
+    color: #fffff;
+    font-family: 'open sans', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+
+
+
+/*핸드폰2*/
+.assemble .phone02 {
+    background-color: #5bc1b7;
+    padding: 50px 0;
+    padding-top: 50px;
+}
+
+.assemble .phone02  {
+    z-index: 1;
+}
+
+.assemble .phone02 .phone_img {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.assemble .phone02  .phone_img .phone01 {
+    width: 400px;
+    height: 689px;
+    background-image: url("image/phone2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.assemble .phone02 .phone_text {
+    float: right;
+    margin-top: -450px;
+    margin-right: 250px;
+    z-index: 2;
+}
+
+.assemble .phone02 .phone_text .text01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 27px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.assemble .phone02 .phone_text .text01 span {
+    opacity: 0.4;
+}
+
+.assemble .phone02 .phone_text .sub_title01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 50px;
+}
+
+.assemble .phone02 .phone_text .sub_title01 .contents01 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+
+.assemble .phone02 .phone_text .sub_title02 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+
+.assemble .phone02 .phone_text .sub_title02 .contents02 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.assemble .phone02 .phone_text .sub_title03 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+/*Button Description*/
+.assemble .phone02 .phone_text .sub_title03 .contents03 {
+    margin-top: 15px;
+}
+
+.assemble .phone02 .phone_text .sub_title03 .contents03 .detail_text1 {
+    display: flex;
+}
+
+.assemble .phone02 .phone_text .sub_title03 .contents03 .detail_text1 .circle1 {
+    width: 25px;
+    height: 25px;
+    background-color: #f95555;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.assemble .phone02 .phone_text .sub_title03 .contents03 .detail_text1 span {
+    color: #fffff;
+    font-family: 'nanum gothic', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.assemble .phone02 .phone_text .sub_title03 .contents03 .detail_text1 .circle1 span {
+    color: #fffff;
+    font-family: 'open sans', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+
+/*핸드폰3*/
+.assemble .phone03 {
+    background-color: #5bc1b7;
+    padding: 50px 0;
+    padding-top: 50px;
+}
+
+.assemble .phone03 {
+    z-index: 1;
+}
+
+.assemble .phone03 .phone_img {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.assemble .phone03  .phone_img .phone01 {
+    width: 400px;
+    height: 689px;
+    background-image: url("image/phone3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.assemble .phone03 .phone_text {
+    float: right;
+    margin-top: -450px;
+    margin-right: 250px;
+    z-index: 2;
+}
+
+.assemble .phone03 .phone_text .text01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 27px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.assemble .phone03 .phone_text .text01 span {
+    opacity: 0.4;
+}
+
+.assemble .phone03 .phone_text .sub_title01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 50px;
+}
+
+.assemble .phone03 .phone_text .sub_title01 .contents01 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+
+.assemble .phone03 .phone_text .sub_title02 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+
+.assemble .phone03 .phone_text .sub_title02 .contents02 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.assemble .phone03 .phone_text .sub_title03 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+/*Button Description*/
+.assemble .phone03 .phone_text .sub_title03 .contents03 {
+    margin-top: 15px;
+}
+
+.assemble .phone03 .phone_text .sub_title03 .contents03 .detail_text1 {
+    display: flex;
+}
+
+.assemble .phone03 .phone_text .sub_title03 .contents03 .detail_text1 .circle1 {
+    width: 25px;
+    height: 25px;
+    background-color: #f95555;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.assemble .phone03 .phone_text .sub_title03 .contents03 .detail_text1 span {
+    color: #fffff;
+    font-family: 'nanum gothic', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.assemble .phone03 .phone_text .sub_title03 .contents03 .detail_text1 .circle1 span {
+    color: #fffff;
+    font-family: 'open sans', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    line-height: 14px;
+}
+
+
+/*핸드폰4*/
+.assemble .phone04 {
+    background-color: #5bc1b7;
+    padding: 10px 0;
+    padding-top: 50px;
+}
+
+.assemble .phone04  {
+    z-index: 1;
+}
+
+.assemble .phone04 .phone_img {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.assemble .phone04  .phone_img .phone01 {
+    width: 400px;
+    height: 689px;
+    background-image: url("image/phone4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.assemble .phone04 .phone_text {
+    float: right;
+    margin-top: -450px;
+    margin-right: 230px;
+    z-index: 2;
+}
+
+.assemble .phone04 .phone_text .text01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 27px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.assemble .phone04 .phone_text .text01 span {
+    opacity: 0.4;
+}
+
+.assemble .phone04 .phone_text .sub_title01 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: 50px;
+}
+
+.assemble .phone04 .phone_text .sub_title01 .contents01 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+
+.assemble .phone04 .phone_text .sub_title02 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+
+.assemble .phone04 .phone_text .sub_title02 .contents02 {
+    color: #ffffff;
+    font-family: 'Nanum Gothic', serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.assemble .phone04 .phone_text .sub_title03 {
+    color: #ffffff;
+    font-family: 'open sans', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 50px;
+}
+/*Button Description*/
+.assemble .phone04 .phone_text .sub_title03 .contents03 {
+    margin-top: 15px;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents03 .detail_text1 {
+    display: flex;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents03 .detail_text1 .circle1 {
+    width: 25px;
+    height: 25px;
+    background-color: #f95555;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents03 .detail_text1 span {
+    color: #fffff;
+    font-family: 'nanum gothic', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents03 .detail_text1 .circle1 span {
+    color: #fffff;
+    font-family: 'open sans', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents02 .detail_text2 {
+    display: flex;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents03 .detail_text2 .circle2 {
+    width: 25px;
+    height: 25px;
+    background-color: #f95555;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents03 .detail_text2 span {
+    color: #fffff;
+    font-family: 'nanum gothic', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+.assemble .phone04 .phone_text .sub_title03 .contents03 .detail_text2 .circle2 span {
+    color: #fffff;
+    font-family: 'open sans', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}

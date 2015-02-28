@@ -1,0 +1,1612 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*! HTML5 Boilerplate v5.0.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+header.major {
+    padding: 220px 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url("image/topimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.major dl dt {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.major dl dd {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 100;
+    padding: 25px 0;
+    padding-left: 50px;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    margin-left: -20px;
+}
+
+.major dt span {
+    color: #64e2cd;
+}
+
+header.major nav {
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.5;
+    box-sizing: border-box;
+}
+
+/*어바웃 타이틀*/
+.about .about_title {
+    background-color: #5bc1b7;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    padding: 70px 0;
+    position: relative;
+}
+
+.about .about_text {
+    width: 100%;
+    top: 150px;
+    position: absolute;
+    z-index: 3;
+}
+
+.about .about_title .about_text span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.about .about_img .about_logo {
+    background-image: url("image/yjlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 250px;
+    opacity: 0.3;
+    display: inline-block;
+}
+
+.about .about_img {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 100px;
+}
+
+/*어바웃*/
+.about .about_contents {
+    padding-top: 160px;
+    background-color: #5bc1b7;
+    text-align: center;
+
+}
+
+.about .about_contents .about_source {
+    justify-content: center;
+}
+
+.about .about_contents .about_source .tv {
+    width: 200px;
+    height: 200px;
+    background-image: url("image/about1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 100px;
+    position: relative;
+    text-align: center;
+}
+
+.about .about_contents .about_source .phone {
+    width: 200px;
+    height: 200px;
+    background-image: url("image/about2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 100px;
+    position: relative;
+}
+
+.about .about_contents .about_source .social {
+    width: 200px;
+    height: 200px;
+    background-image: url("image/about3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 100px;
+    position: relative;
+}
+
+p {
+    line-height: 150%;
+}
+
+.about .about_contents .about_contents_text {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about .about_contents .about_contents_text .major,
+.about .about_contents .about_contents_text .company,
+.about .about_contents .about_contents_text .social {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    z-index: 4;
+    margin: 0 165px;
+    display: inline-block;
+}
+
+.about .about_contents .about_source .tv .bmajor {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    z-index: 4;
+    position: absolute;
+    top: 230px;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+.about .about_contents .about_source .phone .bcompany {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    z-index: 4;
+    position: absolute;
+    top: 230px;
+    margin: 0 auto;
+    margin-left: 8px;
+}
+
+.about .about_contents .about_source .social .bsocial {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    z-index: 4;
+    position: absolute;
+    top: 230px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+/*어바웃 미디어쿼리*/
+
+@media all and (min-width: 0px) and (max-width: 1000px) {
+
+    .about .about_contents {
+        padding-top: 160px;
+        background-color: #5bc1b7;
+        text-align: center;
+    }
+
+    .about .about_contents .about_source {
+        display: flex;
+        width: 100%;
+    }
+
+    .about .about_contents .about_source .tv {
+        width: 150px;
+        height: 150px;
+        background-image: url("image/about1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 0 15px;
+        position: relative;
+        text-align: center;
+    }
+
+    .about .about_contents .about_source .phone {
+        width: 150px;
+        height: 150px;
+        background-image: url("image/about2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 0 15px;
+        position: relative;
+    }
+
+    .about .about_contents .about_source .social {
+        width: 150px;
+        height: 150px;
+        background-image: url("image/about3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 0 15px;
+        position: relative;
+    }
+
+    p {
+        line-height: 150%;
+    }
+
+    /*안보이는 텍스트*/
+    .about .about_contents .about_contents_text {
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about .about_contents .about_contents_text .major,
+    .about .about_contents .about_contents_text .company,
+    .about .about_contents .about_contents_text .social {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        z-index: 4;
+        margin: 0 165px;
+        display: inline-block;
+    }
+
+    /*여기까지*/
+    .about .about_contents_text02 {
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+
+    .about .about_contents_text02 .about_text .about00 {
+        margin: 0 auto;
+        margin-top: 20px;;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .about .about_contents_text02 .about_text .about00 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        z-index: 4;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 5px 60px;
+    }
+
+    .about .about_contents .about_source .tv .bmajor {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 1px;
+        z-index: 4;
+        position: absolute;
+        top: 190px;
+        margin: 0 auto;
+        margin-left: 2px;
+
+    }
+
+    .about .about_contents .about_source .phone .bcompany {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 1px;
+        z-index: 4;
+        position: absolute;
+        top: 190px;
+        margin: 0 auto;
+        margin-left: 8px;
+    }
+
+    .about .about_contents .about_source .social .bsocial {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 1px;
+        z-index: 4;
+        position: absolute;
+        top: 190px;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+
+}
+
+/*어도비스킬*/
+.about .adobe_skill {
+    padding: 300px 0;
+    padding-bottom: 510px;
+    background-color: #5bc1b7;
+    text-align: center;
+}
+
+.about .adobe_skill .skill_title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    z-index: 4;
+    width: 100%;
+    position: relative;
+    top: -40px;
+}
+
+.about .adobe_skill .skill_title .skill_img {
+    background-image: url(image/skills.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 12px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -39px;
+    top: 10px;
+}
+
+.about .adobe_skill .adobe_img {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about .adobe_skill .adobe_img .adobe {
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    top: 120px;
+    margin: 0 120px;
+}
+
+.about .adobe_skill .adobe_img .adobe01 {
+    background-image: url(image/skills_ps.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 305px;
+    height: 227px;
+    margin: 0;
+}
+
+.about .adobe_skill .adobe_img .adobe02 {
+    background-image: url(image/skills_ai.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 227px;
+    margin: 0;
+}
+
+.about .adobe_skill .adobe_img .adobe03 {
+    background-image: url(image/skills_ae.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 227px;
+    margin: 0;
+}
+
+.about .adobe_skill .adobe_img .adobe04 {
+    background-image: url(image/skills_pr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 261px;
+    margin: 0;
+    height: 227px;
+}
+
+/*어도비스킬 미디어쿼리 */
+@media all and (min-width: 0px) and (max-width: 1000px) {
+
+    .about .adobe_skill {
+        padding: 280px 0;
+        padding-bottom: 310px;
+        background-color: #5bc1b7;
+        text-align: center;
+        position: relative;
+    }
+
+    .about .adobe_skill .skill_title {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        z-index: 4;
+        width: 100%;
+        position: relative;
+        top: -50px;
+    }
+
+    .about .adobe_skill .skill_title .skill_img {
+        background-image: url(image/skills02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 12px;
+        display: inline-block;
+        position: absolute;
+        margin-left: -39px;
+        top: 5px;
+    }
+
+    .about .adobe_skill .adobe2 {
+        top: 350px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .about .adobe_skill .adobe2 .adobe01 {
+        background-image: url(image/skills_ps02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+
+    .about .adobe_skill .adobe2 .adobe02 {
+        background-image: url(image/skills_ai02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+
+    .about .adobe_skill .adobe2 .adobe03 {
+        background-image: url(image/skills_ae02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+
+    .about .adobe_skill .adobe2 .adobe04 {
+        background-image: url(image/skills_pr02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+
+    .about .adobe_skill .adobe_img {
+        width: 0;
+    }
+
+    .about .adobe_skill .adobe_img .adobe {
+        width: 0;
+    }
+
+    .about .adobe_skill .adobe_img .adobe01 {
+        width: 0;
+    }
+
+    .about .adobe_skill .adobe_img .adobe02 {
+        width: 0;
+    }
+
+    .about .adobe_skill .adobe_img .adobe03 {
+        width: 0;
+    }
+}
+
+/*메뉴버튼*/
+
+.menu {
+    padding: 120px 0;
+    padding-bottom: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url("image/work.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu .menu_title {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+
+.menu .menu_title .menutext {
+    top: -210px;
+    position: relative;
+    text-align: center;
+}
+
+.menu .menu_title .menutext span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.menu .menu_title .menutext p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.menu .menu_title .menu_img {
+    width: 100%;
+    text-align: center;
+}
+
+.menu .menu_title .menu_img .menu_logo {
+    background-image: url("image/yjlogo02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 250px;
+    opacity: 0.7;
+    display: inline-block;
+    top: 100px;
+    z-index: 2;
+}
+
+.menu .menu_button .button_img {
+    width: 100%;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.menu .menu_button .button01 {
+    width: 250px;
+    height: 80px;
+    border: solid 3px #ffffff;
+    display: inline-block;
+    margin: 0 70px;
+    position: relative;
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.menu .menu_button .button01 span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 40px;
+    top: 22px;
+}
+
+.menu .menu_button .button02 {
+    width: 250px;
+    height: 80px;
+    border: solid 3px #ffffff;
+    display: inline-block;
+    margin: 0 70px;
+    position: relative;
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.menu .menu_button .button02 span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 70px;
+    top: 22px;
+}
+
+.menu .menu_button .button03 {
+    width: 250px;
+    height: 80px;
+    border: solid 3px #ffffff;
+    display: inline-block;
+    margin: 0 70px;
+    position: relative;
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.menu .menu_button .button03 span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 60px;
+    top: 22px;
+}
+
+.menu .menu_button .button01:hover {
+    opacity: 1;
+}
+
+.menu .menu_button .button02:hover {
+    opacity: 1;
+}
+
+.menu .menu_button .button03:hover {
+    opacity: 1;
+}
+
+/*메뉴 첫번째 미디어쿼리*/
+
+@media all and (min-width: 300px) and (max-width: 500px) {
+
+    .menu {
+        padding: 120px 0;
+        padding-bottom: 160px;
+        box-sizing: border-box;
+        text-align: center;
+        background-image: url("image/work.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .menu .menu_title {
+        z-index: 1;
+        text-align: center;
+        position: relative;
+    }
+
+    .menu .menu_title .menutext {
+        top: -200px;
+        position: relative;
+        text-align: center;
+    }
+
+    .menu .menu_title .menutext span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: -1px;
+    }
+
+    .menu .menu_title .menutext p {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+
+    .menu .menu_title .menu_img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .menu_title .menu_img .menu_logo {
+        background-image: url("image/yjlogo02.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 250px;
+        opacity: 0.7;
+        display: inline-block;
+        top: 100px;
+        z-index: 2;
+    }
+
+    .menu .menu_button .button_img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .menu_button .button01 {
+        width: 200px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 70px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+        margin-top: -20px;
+    }
+
+    .menu .menu_button .button01 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 40px;
+        top: 30px;
+    }
+
+    .menu .menu_button .button02 {
+        width: 200px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 70px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .menu .menu_button .button02 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 63px;
+        top: 27px;
+
+    }
+
+    .menu .menu_button .button03 {
+        width: 200px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 70px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .menu .menu_button .button03 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 52px;
+        top: 27px;
+    }
+
+    .menu .menu_button .button01:hover {
+        opacity: 1;
+    }
+
+    .menu .menu_button .button02:hover {
+        opacity: 1;
+    }
+
+    .menu .menu_button .button03:hover {
+        opacity: 1;
+    }
+}
+
+/*메뉴 두번째 미디어쿼리*/
+
+@media all and (min-width: 500px) and (max-width: 1000px) {
+    .menu .menu_button .button_img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .menu_button .button01 {
+        width: 200px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 30px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+        margin-top: -20px;
+    }
+
+    .menu .menu_button .button01 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 40px;
+        top: 30px;
+    }
+
+    .menu .menu_button .button02 {
+        width: 200px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 30px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .menu .menu_button .button02 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 63px;
+        top: 27px;
+
+    }
+
+    .menu .menu_button .button03 {
+        width: 200px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 30px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .menu .menu_button .button03 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 52px;
+        top: 27px;
+    }
+
+    .menu .menu_button .button01:hover {
+        opacity: 1;
+    }
+
+    .menu .menu_button .button02:hover {
+        opacity: 1;
+    }
+
+    .menu .menu_button .button03:hover {
+        opacity: 1;
+    }
+}
+
+/*메뉴 세번째 미디어쿼리*/
+
+@media all and (min-width: 1000px) and (max-width: 1500px) {
+
+    .menu .menu_button .button_img {
+        width: 100%;
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .menu .menu_button .button01 {
+        width: 250px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 40px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+    }
+
+    .menu .menu_button .button01 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 40px;
+        top: 22px;
+    }
+
+    .menu .menu_button .button02 {
+        width: 250px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 40px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+    }
+
+    .menu .menu_button .button02 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 70px;
+        top: 22px;
+    }
+
+    .menu .menu_button .button03 {
+        width: 250px;
+        height: 80px;
+        border: solid 3px #ffffff;
+        display: inline-block;
+        margin: 0 40px;
+        position: relative;
+        opacity: 0.2;
+        transition: 0.5s;
+    }
+
+    .menu .menu_button .button03 span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        position: absolute;
+        left: 60px;
+        top: 22px;
+    }
+
+    .menu .menu_button .button01:hover {
+        opacity: 1;
+    }
+
+    .menu .menu_button .button02:hover {
+        opacity: 1;
+    }
+
+    .menu .menu_button .button03:hover {
+        opacity: 1;
+    }
+}
+
+/*콘텍트
+.contact {
+    padding-top: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #232323;
+}
+
+.contact .contact_title {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+
+.contact .contact_title .contact_text {
+    top: -200px;
+    position: relative;
+    text-align: center;
+}
+
+.contact .contact_title .contact_text span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.contact .contact_title .contact_img {
+    width: 100%;
+    text-align: center;
+}
+
+.contact .contact_title .contact_img .contact_logo {
+    background-image: url("image/yjlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 250px;
+    opacity: 0.3;
+    display: inline-block;
+    top: 100px;
+    z-index: 2;
+}
+
+.contact .contact_title .contact_text .contact_group {
+    position: relative;
+    top: 100px;
+}
+
+
+.contact .contact_title .contact_text .contact_group .contact_contents01 p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+}
+
+.contact .contact_title .contact_text .contact_group .contact_contents01 span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 0 15px;
+}
+.contact .contact_title .contact_text .contact_group .contact_contents02 {
+    margin-top: 58px
+}
+
+.contact .contact_title .contact_text .contact_group .contact_contents02 {
+    position: relative;
+}
+
+.contact .contact_title .contact_text .contact_group .contact_contents02 p {
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+}
+
+.contact .contact_title .contact_text .contact_group .contact_contents02 span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 0 15px;
+}
+.contact .contact_title .contact_text .contact_group .contact_contents03 {
+    margin-top: 60px
+}
+.contact .contact_title .contact_text .contact_group .contact_contents03 {
+    position: relative;
+}
+
+.contact .contact_title .contact_text .contact_group .contact_contents03 p {
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+}
+
+.contact .contact_title .contact_text .contact_group .contact_contents03 span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 0 15px;
+*/
+/*콘택트*/
+.contact {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #232323;
+}
+
+.contact .contact_title {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+
+.contact .contact_title .contact_text {
+    top: -200px;
+    position: relative;
+    text-align: center;
+}
+
+.contact .contact_title .contact_text span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.contact .contact_title .contact_img {
+    width: 100%;
+    text-align: center;
+}
+
+.contact .contact_title .contact_img .contact_logo {
+    background-image: url("image/yjlogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 230px;
+    opacity: 0.3;
+    display: inline-block;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+.contact .contact_icon {
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.contact .contact_icon .contact_insta {
+    background-image: url("image/contact_insta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.contact .contact_icon .contact_face {
+    background-image: url("image/contact_face.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.contact .contact_icon .contact_mail {
+    background-image: url("image/contact_mail.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.contact .text {
+    margin-top: 100px;
+}
+
+.contact .text span {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.contact .text p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    opacity: 0.4;
+}
+
+/*컨택트 미디어쿼리*/
+@media all and (min-width: 0px) and (max-width: 1000px) {
+
+    .contact {
+        padding-top: 120px;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #232323;
+    }
+
+    .contact .contact_title {
+        z-index: 1;
+        text-align: center;
+        position: relative;
+    }
+
+    .contact .contact_title .contact_text {
+        top: -200px;
+        position: relative;
+        text-align: center;
+    }
+
+    .contact .contact_title .contact_text span {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: -1px;
+    }
+
+    .contact .contact_title .contact_img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact .contact_title .contact_img .contact_logo {
+        background-image: url("image/yjlogo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 250px;
+        opacity: 0.3;
+        display: inline-block;
+        margin-top: -50px;
+        z-index: 2;
+    }
+
+    .contact .contact_icon {
+        width: 100%;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .contact .contact_icon .contact_insta {
+        background-image: url("image/contact_insta.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin: 0 50px;
+        margin-top: 20px;
+    }
+
+    .contact .contact_icon .contact_face {
+        background-image: url("image/contact_face.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin: 0 50px;
+        margin-top: 20px;
+    }
+
+    .contact .contact_icon .contact_mail {
+        background-image: url("image/contact_mail.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin: 0 50px;
+        margin-top: 20px;
+    }
+
+    .contact .text {
+        margin-top: 100px;
+    }
+
+    .contact .text span {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    .contact .text p {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        margin-top: 50px;
+        opacity: 0.4;
+    }
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ * http://juicystudio.com/article/screen-readers-display-none.php
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster:
+                                          http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

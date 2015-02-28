@@ -1,0 +1,178 @@
+.assemble2 {
+    width: 100%;
+}
+
+.assemble2 .top {
+    background-color: #4dbedf;
+    padding: 650px 0;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.assemble2 .top .top_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.assemble2 .top .top_text .sub_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'nanum gothic', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 2;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.assemble2 .top .top_img {
+    background-image: url("image/phone001.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 670px;
+    z-index: 1;
+    float: right;
+    margin-top: -300px;
+    margin-right: 130px;
+}
+
+/*두번째*/
+.assemble2 .second {
+    background-color: #f4e876;
+    padding: 650px 0;
+    padding-top: 130px;
+    align-items: center;
+}
+
+.assemble2 .second .top_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.assemble2 .second .top_text .sub_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'nanum gothic', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 2;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.assemble2 .second .top_img {
+    background-image: url("image/phone002.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 670px;
+    z-index: 1;
+    float: right;
+    margin-top: -320px;
+    margin-right: 100px;
+}
+
+/*세번째*/
+.assemble2 .third {
+    background-color: #5bc1b7;
+    padding: 650px 0;
+    padding-top: 130px;
+}
+
+.assemble2 .third .text {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.assemble2 .third .text span {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.assemble2 .second .top_img {
+    background-image: url("image/phone002.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 670px;
+    z-index: 1;
+    float: right;
+    margin-top: -320px;
+    margin-right: 100px;
+}
+
+.assemble2 .second {
+    background-color: #f4e876;
+    padding: 650px 0;
+    padding-top: 130px;
+    align-items: center;
+}
+
+.assemble2 .second .top_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.assemble2 .second .top_text .sub_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'nanum gothic', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 2;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.assemble2 .second .top_img {
+    background-image: url("image/phone002.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 670px;
+    height: 670px;
+    z-index: 1;
+    float: right;
+    margin-top: -320px;
+    margin-right: 100px;
+}
+
