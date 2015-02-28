@@ -98,7 +98,7 @@
 /*세번째*/
 .assemble2 .third {
     background-color: #5bc1b7;
-    padding: 650px 0;
+    padding: 200px 0;
     padding-top: 130px;
 }
 
@@ -117,27 +117,138 @@
     text-transform: uppercase;
 }
 
-.assemble2 .second .top_img {
-    background-image: url("image/phone002.png");
+.assemble2 .third .top_img .icon .color{
+    background-image: url("image/color.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 670px;
-    height: 670px;
-    z-index: 1;
-    float: right;
-    margin-top: -320px;
-    margin-right: 100px;
+    width: 90px;
+    height: 50px;
+    margin: 0 30px;
+}
+.assemble2 .third .top_img .icon .furniture{
+    background-image: url("image/furniture.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 50px;
+    margin: 0 30px;
+}
+.assemble2 .third .top_img .icon .delete{
+    background-image: url("image/delete.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 50px;
+    margin: 0 30px;
+}
+.assemble2 .third .top_img .icon .save{
+    background-image: url("image/save.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 50px;
+    margin: 0 30px;
+}
+.assemble2 .third .top_img .icon .cart{
+    background-image: url("image/cart.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 50px;
+    margin: 0 30px;
+}
+.assemble2 .third .top_img .icon .back{
+    background-image: url("image/back.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 50px;
+    margin: 0 30px;
 }
 
-.assemble2 .second {
-    background-color: #f4e876;
-    padding: 650px 0;
-    padding-top: 130px;
+.assemble2 .third .top_img .icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.assemble2 .third .top_img .image .bg1 {
+    background-image: url("image/bg1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 70px;
+}
+.assemble2 .third .top_img .image .bg1 .text01 {
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 420px;
+}
+.assemble2 .third .top_img .image .bg2 {
+    background-image: url("image/bg2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.assemble2 .third .top_img .image .bg2 .text02 {
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 420px;
+}
+
+.assemble2 .third .top_img .image .bg3 {
+    background-image: url("image/bg3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.assemble2 .third .top_img .image .bg3 .text03 {
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 420px;
+}
+.assemble2 .third .top_img .image {
+    text-align: center;
+    margin-top: 100px;
+}
+/*네번째*/
+
+.assemble2 .four {
+    background-color: #f48a42;
+    padding: 700px 0;
+    padding-top: 100px;
     align-items: center;
 }
 
-.assemble2 .second .top_text {
+.assemble2 .four .top_text {
     float: left;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -150,7 +261,7 @@
     margin-left: 100px;
 }
 
-.assemble2 .second .top_text .sub_text {
+.assemble2 .four .top_text .sub_text {
     float: left;
     color: #ffffff;
     font-family: 'nanum gothic', sans-serif;
@@ -162,17 +273,61 @@
     margin-top: -20px;
     margin-left: 10px;
 }
-
-.assemble2 .second .top_img {
-    background-image: url("image/phone002.png");
+.assemble2 .four .top_img {
+    background-image: url("image/wireframe.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 670px;
-    height: 670px;
+    width: 600px;
+    height: 600px;
     z-index: 1;
     float: right;
-    margin-top: -320px;
-    margin-right: 100px;
+    margin-right: 130px;
+    margin-top: -15px;
+}
+/*다섯번째*/
+
+.assemble2 .five {
+    background-color: #f25c5c;
+    padding: 700px 0;
+    padding-top: 100px;
+    align-items: center;
 }
 
+.assemble2 .five .top_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.assemble2 .five .top_text .sub_text {
+    float: left;
+    color: #ffffff;
+    font-family: 'nanum gothic', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 2;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.assemble2 .five .top_img {
+    background-image: url("image/App.mp4");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    float: right;
+    margin-right: 130px;
+    margin-top: -15px;
+}
