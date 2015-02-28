@@ -289,7 +289,7 @@
 
 .assemble2 .five {
     background-color: #f25c5c;
-    padding: 700px 0;
+    padding: 100px 0;
     padding-top: 100px;
     align-items: center;
 }
@@ -319,15 +319,7 @@
     margin-top: -20px;
     margin-left: 10px;
 }
-.assemble2 .five .top_img {
-    background-image: url("image/App.mp4");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 600px;
-    z-index: 1;
-    float: right;
-    margin-right: 130px;
-    margin-top: -15px;
+.assemble2 .five .top_img .video{
+   float: right;
+    margin-right: 100px;
 }
