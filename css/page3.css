@@ -1,0 +1,135 @@
+.complete .top {
+    background-color: #232323;
+    padding: 30px 0;
+    position: relative;
+    align-items: center;
+}
+
+.complete .top .topbutton {
+    color: #ffffff;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    float: right;
+    text-transform: uppercase;
+}
+
+a:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.complete .topgreen {
+    background-color: #5bc1b7;
+    padding: 250px 0;
+    position: relative;
+}
+
+.complete .topgreen .toptext {
+    text-align: center;
+}
+
+.complete .topgreen .toptext .title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.complete .topgreen .toptext .title span {
+    color: #232323;
+}
+
+.complete .topgreen .toptext .subtitle {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 24px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.complete .first {
+    padding: 550px 0;
+    padding-top: 100px;
+    background-color: #4dbedf;
+
+}
+.complete .first .text {
+    float: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    z-index: 2;
+    margin-left: 100px;
+}
+.complete .first .img {
+    width: 574px;
+    height: 550px;
+    background-image: url("image/poster.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-right: 100px;
+}
+
+
+.complete .second {
+    padding: 50px 0;
+    padding-top: 100px;
+    background-color: #5bc1b7;
+
+}
+.complete .second .text {
+    float: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    z-index: 2;
+    margin-left: 100px;
+}
+.complete .second .text2 {
+    float: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 50px;
+    z-index: 2;
+    margin-left: 100px;
+}
+.complete .second .img{
+    width:100%;
+}
+.complete .second .img .world{
+    width: 1280px;
+    height: 783px;
+    background-image: url("image/world.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.complete .third {
+
+    background-color: #5bc1b7;
+
+}
